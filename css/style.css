@@ -1,8 +1,8 @@
 body {
   background: #fff;
   font-family: "Mukta Mahee", arial, sans-serif;
-  font-weight: 200;
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 20px;
   line-height: 1.8;
   color: #6c757d;
   overflow-x: hidden;
@@ -33,12 +33,14 @@ a:hover {
 
 h1, h2, h3, h4, h5 {
   color: #000;
-  font-family: "Abril Fatface", times, serif;
+  font-family: "Gilroy-ExtraBold", times, serif;
+  src: url(../fonts/Gilroy-FREE/Gilroy-ExtraBold.otf);
 }
 
 .container-fluid {
   max-width: 1600px;
   display: block !important;
+  padding: 0 60px;
 }
 
 .btn {
@@ -105,13 +107,16 @@ textarea.form-control {
   position: fixed;
 }
 
+
 .site-logo a {
   font-size: 30px;
   color: #fff;
   font-weight: bold;
   line-height: 1;
-  font-family: "Abril Fatface", times, serif;
+  font-family: "Gilroy-ExtraBold", times, serif;
+  src: url(../fonts/Gilroy-FREE/Gilroy-ExtraBold.otf);
 }
+
 
 .site-navbar {
   position: fixed;
@@ -141,11 +146,11 @@ textarea.form-control {
 }
 
 .site-navbar nav .menu li a:hover {
-  color: #65c0ba;
+  color: #C36137;
 }
 
 .site-navbar nav .menu li.active a {
-  color: #65c0ba;
+  color: #C36137;
 }
 
 .site-navbar nav .menu li.active a:before {
@@ -161,7 +166,8 @@ textarea.form-control {
 }
 
 .site-navbar .extra-info h3 {
-  font-family: "Mukta Mahee", arial, sans-serif;
+  font-family: "Gilroy-ExtraBold", times, serif;
+  src: url(../fonts/Gilroy-FREE/Gilroy-ExtraBold.otf);
   text-transform: uppercase;
   font-size: 13px;
   letter-spacing: .2em;
@@ -237,7 +243,8 @@ textarea.form-control {
 
 .site-hero-inner .heading {
   font-size: 80px;
-  font-family: "Abril Fatface", times, serif;
+  font-family: "Gilroy-ExtraBold", times, serif;
+  src: url(../fonts/Gilroy-FREE/Gilroy-ExtraBold.otf);
   color: #fff;
   line-height: 1;
   font-weight: bold;
@@ -412,18 +419,18 @@ iframe {
   }
 }
 .section {
-  padding: 10em 0;
+  padding: 10em 30px;
 }
 
 @media (max-width: 991.98px) {
   .section {
-    padding: 6em 0;
+    padding: 6em 15px;
   }
 }
 
 @media (max-width: 991.98px) {
   .lead {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
@@ -485,7 +492,7 @@ iframe {
   height: 400px;
   width: 150%;
   left: 50%;
-  background: #fafafa;
+  background: #fff;
   -webkit-transform: rotate(-4deg) translateX(-50%) translateY(-100%);
   -ms-transform: rotate(-4deg) translateX(-50%) translateY(-100%);
   transform: rotate(-4deg) translateX(-50%) translateY(-100%);
@@ -536,6 +543,14 @@ iframe {
 .btn-play:hover .icon span {
   color: #9C441E;
 }
+.current-programs .btn {
+  padding: 10px 20px !important;
+}
+@media (max-width: 991.98px) {
+  .current-programs .btn {
+    padding: 5px 10px !important;
+  }
+}
 #about img {
   width: 75%;
 }
@@ -550,7 +565,8 @@ iframe {
 }
 .heading-serif, .testimonial-section .heading, .slider-section .heading, .current-programs .heading {
   font-size: 60px;
-  font-family: "Abril Fatface", times, serif;
+  font-family: "Gilroy-ExtraBold", times, serif;
+  src: url(../fonts/Gilroy-FREE/Gilroy-ExtraBold.otf);
   line-height: 1;
   margin-bottom: 30px;
 }
@@ -567,6 +583,8 @@ iframe {
 .current-programs .heading, .current-programs a, .current-programs p {
   color: #fff;
 }
+
+
 .current-programs {
   display: flex;
 }
@@ -981,7 +999,14 @@ iframe {
   font-size: 18px;
   margin-bottom: 20px;
 }
-
+.footer-section a, .footer-section p {
+  font-size: 18px;
+}
+@media (max-width: 991.98px) {
+  .footer-section a, .footer-section p {
+    font-size: 16px;
+  }
+}
 .footer-section a {
   color: rgba(255, 255, 255, 0.7);
 }
@@ -1080,8 +1105,8 @@ iframe {
 .side-box .heading, .sidebar-search .heading {
   font-size: 18px;
   margin-bottom: 30px;
-  font-family: "Mukta Mahee", arial, sans-serif;
-}
+  font-family: "Gilroy-ExtraBold", times, serif;
+  src: url(../fonts/Gilroy-FREE/Gilroy-ExtraBold.otf);
 
 .post-list li {
   margin-bottom: 20px;
