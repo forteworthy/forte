@@ -7,7 +7,11 @@ body {
   color: #6c757d;
   overflow-x: hidden;
 }
-
+@media (max-width: 991.98px) {
+  p, a {
+    font-size: 18px;
+  }
+}
 ::-moz-selection {
   color: #fff;
   background: #65c0ba;
@@ -49,8 +53,13 @@ h1, h2, h3, h4, h5 {
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 4px;
+  font-size: 18px;
 }
-
+ (max-width: 991.98px) {
+  .btn {
+    font-size: 16px;
+  }
+}
 .btn.btn-outline-light {
   border-width: 2px;
 }
@@ -107,6 +116,15 @@ textarea.form-control {
   position: fixed;
 }
 
+@media (max-width: 991.98px) {
+  .logo {
+    width: 50px;
+    border: none;
+  }
+}
+.logo {
+  width: 100px;
+}
 
 .site-logo a {
   font-size: 30px;
@@ -190,6 +208,11 @@ textarea.form-control {
   height: 100vh;
   min-height: 700px;
   width: 100%;
+}
+@media (max-width: 991.98px) {
+  .site-hero {
+    background-position: right -120px center;
+  }
 }
 
 .site-hero .scroll-down {
