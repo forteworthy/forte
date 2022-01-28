@@ -530,6 +530,27 @@ iframe {
   border-top: 1px solid #e0e0e0;
 }
 
+.bg-light-3 {
+  background: #C36137 !important;
+}
+
+/*mailchip css*/
+#mc_embed_signup{
+  background: #C36137;
+  clear:left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font:14px #fff;
+  padding: 40px 20px;
+}
+#mc_embed_signup input {
+  border-radius: 5px;
+  padding: 10px 0px;
+  border-color: #fff;
+}
+
+
 .btn-play .icon {
   width: 50px;
   height: 50px;
