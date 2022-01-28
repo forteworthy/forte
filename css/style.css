@@ -548,8 +548,11 @@ iframe {
   border-radius: 5px;
   border-color: #fff;
 }
+#mc_embed_signup .email {
+  padding: 10px 0;
+}
 #mc_embed_signup .button {
-  background-color: #fff;
+  background-color: #fff!important;
   color: #000;
 }
 
