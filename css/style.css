@@ -541,15 +541,17 @@ iframe {
   display: flex;
   align-items: center;
   justify-content: center;
-  font:14px #fff;
+  font:18px #fff;
   padding: 40px 20px;
 }
 #mc_embed_signup input {
   border-radius: 5px;
-  padding: 10px 0px;
   border-color: #fff;
 }
-
+#mc_embed_signup .button {
+  background-color: #fff;
+  color: #000;
+}
 
 .btn-play .icon {
   width: 50px;
