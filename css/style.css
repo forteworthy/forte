@@ -547,10 +547,22 @@ iframe {
 #mc_embed_signup input {
   border-radius: 5px;
   border-color: #fff;
+  outline-style: none;
   color: #000!important;
 }
+.mc_btn_container {
+  display: flex;
+  margin: 0 10px;
+  align-items: center;
+  justify-content: space-around;
+
+}
 #mc_embed_signup .email {
-  padding: 10px 0;
+  margin: 10px 0;
+}
+.brandingLogo {
+  margin-top: auto!important;
+  margin-bottom: auto!important;
 }
 #mc_embed_signup .button {
   background-color: #fff!important;
