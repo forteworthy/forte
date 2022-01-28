@@ -535,7 +535,7 @@ iframe {
 }
 
 /*mailchip css*/
-#mc_embed_signup{
+#mc_embed_signup {
   background: #C36137;
   clear:left;
   display: flex;
@@ -547,6 +547,7 @@ iframe {
 #mc_embed_signup input {
   border-radius: 5px;
   border-color: #fff;
+  color: #000!important;
 }
 #mc_embed_signup .email {
   padding: 10px 0;
